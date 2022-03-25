@@ -1,7 +1,13 @@
 package main
 
 import (
-	
+	"github.com/alsidneio/slack-go/drivers"
+	"github.com/alsidneio/slack-go/controllers"
+	"github.com/joho/godotenv"
+	"github.com/rs/zerolog"
+	"github.com/rs/zerolog/log"
+	"github.com/slack-go/slack/socketmode"
+	"os"
 )
 
 func main() {
